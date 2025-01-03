@@ -47,9 +47,8 @@ const Navbar = () => {
                 {/* Responsive logo size in menu */}
                 <img className="w-16 h-16 sm:w-20 sm:h-20" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                "Front-End Developer and UI Designer creating visually appealing, user-friendly interfaces. 
+                Combining technical expertise with creative design for seamless digital experiences."
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -76,17 +75,17 @@ const Navbar = () => {
                 <h2 className="text-base uppercase font-titleFont mb-4">
                   Find me in
                 </h2>
-                <div className="flex gap-4">
-                  <span className="bannerIcon">
-                    <FaFacebookF />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaTwitter />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaLinkedinIn />
-                  </span>
-                </div>
+                        <div className="flex gap-4">
+                          <a href="https://web.facebook.com/profile.php?id=100077178456958" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+                            <FaFacebookF />
+                          </a>
+                          {/* <a href="https://twitter.com/your-profile" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+                            <FaTwitter />
+                          </a> */}
+                          <a href="https://www.linkedin.com/in/mathivarman04/" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+                            <FaLinkedinIn />
+                          </a>
+                        </div>
               </div>
               <span
                 onClick={() => setShowMenu(false)}
