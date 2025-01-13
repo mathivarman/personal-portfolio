@@ -4,7 +4,7 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Frontend Developer.", "UI Designer."],
+      words: ["Software Developer.", "UI Designer."],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
@@ -29,7 +29,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-sm md:text-base font-bodyFont leading-6 tracking-wide">
-          "Front-End Developer and UI Designer creating visually appealing, user-friendly interfaces. 
+          "Software Developer and UI Designer creating visually appealing, user-friendly interfaces. 
           Combining technical expertise with creative design for seamless digital experiences."
         </p>
       </div>
